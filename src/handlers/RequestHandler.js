@@ -9,7 +9,9 @@
 
 var ResponseHandler = require('./ResponseHandler');
 require('es6-promise').polyfill();
-require('isomorphic-fetch');
+
+//removed so works with react-native
+//require('isomorphic-fetch');
 
 function RequestHandler(vals, endpoint, cb) {
 
